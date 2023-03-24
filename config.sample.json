@@ -1,0 +1,10 @@
+{
+  "MNEUMONIC": "<your mnemonic>",
+  "CONTROLLER_AUTHSIG": {},
+  "PKP_PUBKEY": "<your pubkey>",
+  "RPC_ENDPOINT": "https://cosmos-mainnet-rpc.allthatnode.com:26657",
+  "RECIPIENT": "cosmos1jyz3m6gxuwceq63e44fqpgyw2504ux85ta8vma",
+  "DENOM": "uatom",
+  "AMOUNT": 1,
+  "DEFAULT_GAS": 0.025
+}
