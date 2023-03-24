@@ -7,7 +7,7 @@ import {
   GasPrice,
   coins,
 } from "@cosmjs/stargate";
-import { PKPCosmosWallet } from "./pkpCosmosWallet";
+import { PKPCosmosWallet } from "@lit-protocol/pkp-cosmos";
 import { LitLogger } from "./utils";
 import {
   MNEUMONIC,

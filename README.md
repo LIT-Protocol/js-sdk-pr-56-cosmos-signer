@@ -1,8 +1,8 @@
 # PKPCosmos Signer
 
-This is a package that modified the ["DirectSecp256k1HdWallet"](https://github.com/cosmos/cosmjs/blob/main/packages/proto-signing/src/directsecp256k1wallet.ts) class from [@cosmjs/proto-signing](https://github.com/cosmos/cosmjs/tree/main/packages/proto-signing). The class extends the PKPBaseWallet class and implements the [OfflineDirectSigner](https://github.com/cosmos/cosmjs/blob/main/packages/proto-signing/src/signer.ts) interface, enabling it to use PKP for signing. The class handles the creation of a Cosmos wallet and signing transactions with the wallet.
+NOTE: This repo has been integrated into the [JS-SDK](https://github.com/LIT-Protocol/js-sdk)
 
-# Demo/Test
+# Demo/Test for [PR#56](https://github.com/LIT-Protocol/js-sdk/pull/56)
 
 You will first need to edit the `config.sample.json` file.
 
@@ -19,7 +19,7 @@ You will first need to edit the `config.sample.json` file.
 }
 ```
 
-Then you can type `yarn start` or `yarn dev` to select the test case you want to run. At the moment, we have the following
+Then you can type `yarn start <test-number>` or `yarn dev <test-number>` to select the test case you want to run. At the moment, we have the following
 
 ```
 /**
