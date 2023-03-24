@@ -7,7 +7,6 @@ Similar to PKP-Ethers, this is a package that modified the ["DirectSecp256k1HdWa
 You will first need to edit the `config.sample.json` file. 
 
 ```json
-// config.sample.json
 {
   "MNEUMONIC": "<your mnemonic>",
   "CONTROLLER_AUTHSIG": {},
@@ -20,7 +19,7 @@ You will first need to edit the `config.sample.json` file.
 }
 ```
 
-Then you can type `yarn start` or `yarn dev` to select the test case you want to run. At the moment, we have thw following
+Then you can type `yarn start` or `yarn dev` to select the test case you want to run. At the moment, we have the following
 
 ```
 /**
